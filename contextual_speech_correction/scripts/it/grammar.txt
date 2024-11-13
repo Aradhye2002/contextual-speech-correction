@@ -1,0 +1,5 @@
+S -> robot C | C
+C -> Cbar and C | Cbar
+Cbar -> V the N
+V -> clear | pick up | go to | inspect | grasp
+N -> container | back of the tree | debris | block | blocks | barrel | path | tree | traffic cone | ground | cone

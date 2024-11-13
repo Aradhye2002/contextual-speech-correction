@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>contextual_speech_correction</name>
+  <version>0.1.0</version>
+  <description>The beginner_tutorials package</description>
+
+  <maintainer email="cs5200417@iitd.ac.in">Your Name</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+  <author email="you@yourdomain.tld">Jane Doe</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>cfg2cnf</exec_depend>
+  <exec_depend>correct</exec_depend>
+  <exec_depend>costfunc</exec_depend>
+  <exec_depend>cyk</exec_depend>
+  <exec_depend>getgrammar</exec_depend>
+  <exec_depend>grammar</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+</package>
